@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="clock_style.css">
+	<script src="email&pass_validation.js"></script>
+	<script src="clock.js"></script>
+	<script src="browser_check.js"></script>
+	
+</head>
+<body>
+	
+	<div class="form">
+		<h1>Вход</h1>
+		<div class="input-form">
+			<input type="text" placeholder="Логин" id="email">
+			<span id="false_email"></span>
+		</div>
+		<div class="input-form">
+			<input type="password" placeholder="Пароль" id="password"/>
+			<span id="false_password"></span>
+		</div>
+		<div class="input-form">
+			<input type="submit" value="Войти" onclick="validate()"/>
+			<span id="login_status"></span>
+		</div>
+		
+		
+	</div>
+
+	<div class="date">
+  		<span>
+  			<script src="clock_date-return.js"></script>
+  			(<span id="clockdat" ></span>)
+  		</span>
+	</div>
+
+</body>
+</html>
