@@ -61,7 +61,7 @@ function validate(){
     	document.getElementById("login_status").innerHTML = "Все круто!";
   	}
   	else {
-  		document.getElementById("login_status").innerHTML = "Упс! Перезагрузите страницу и попробуйте снова";
+  		document.getElementById("login_status").innerHTML = "Упс! Попробуйте снова или перезагрузите страницу.";
 
 
   	}
