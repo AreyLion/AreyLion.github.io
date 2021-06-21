@@ -1,3 +1,4 @@
+//проверка корректности email и пароля
 function validate(){
 	// проверка email
 	var email_correct = false
